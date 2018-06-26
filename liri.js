@@ -1,5 +1,5 @@
 
-require("dotenv").config();
+require("dotenv").config(); //do the requiere for other file
 
 //Declaration of Variables
 
@@ -95,7 +95,7 @@ function doit() {
 		if (error) {
     		return console.log(error);
   		}
-		// Line split by commas to identify indexes
+		
         var dataArr = data.split(",");
         //includes all commands in case it is changed from the random.txt file
 		if (dataArr[0] === "spotify-this-song") {
